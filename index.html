@@ -5,21 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 <body>
     <main>
-        <section id="Login">
+        <section id="login">
             <div id="imagen">
-
             </div>
             <div id="formulario">
-
-            </div>
             <h1>Login</h1>
             <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configuraçoes no seu ambiente.</p>
             <form action="login.php" method="post">
-                
+                <p>
+                    <label for="iemail" class="material-symbols-outlined">person</label>
+                    <input type="email" name="email" id="iemail" class="caixa">
+                </p><br>
+                <p>
+                    <label for="isenha" class="material-symbols-outlined">key</label>
+                    <input type="password" name="senha" id="isenha" class="caixa" size="20">
+                </p>
             </form>
+            </div>
         </section>
     </main>
 </body>
