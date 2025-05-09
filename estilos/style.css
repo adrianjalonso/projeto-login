@@ -31,34 +31,32 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    height: 500px;
+    width: 280px;
 }
 
 #imagen {
-    height: 250px;
+    height: 230px;
     background-image: url(../imagens/arbol.jpg);
     background-size: cover;
-    background-attachment: fixed;
     border-radius: 10px 10px 0px 0px;
 }
 
 h1 {
     text-align: center;
+    padding: 10px;
 }
 
-main > section > div > p {
+.texto {
     padding: 10px;
+    font-size: 0.9em;
 }
 
 #formulario {
     background-color: white;
-    width: 280px;
     padding-bottom: 10px;
     border-radius: 0px 0px 10px 10px;
-}
-
-form {
-    margin: 10px;
-
+    width: 280px;
 }
 
 label {
@@ -77,5 +75,9 @@ main > section > div > form > p {
     margin-left: 10px;
     margin-right: 10px;
     background-color: var(--cor01);
+}
+
+.texto{
+    padding: 10px;
 }
 
