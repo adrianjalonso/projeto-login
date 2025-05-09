@@ -26,7 +26,6 @@ body, html{
 main {
     height: 100vh;
     position: relative;
-
 }
 
 section#login {
@@ -34,12 +33,11 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    margin: 10px;
-    padding-bottom: 10px;
+    width: 280px;
 }
 
 #imagen {
-    height: 400px;
+    height: 250px;
     width: 280px;
     background-image: url(../imagens/arbol.jpg);
     background-size: cover;
@@ -70,6 +68,8 @@ form {
 label {
     color: white;
     margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 input {
     text-align: center;
