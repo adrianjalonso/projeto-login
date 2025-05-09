@@ -40,7 +40,7 @@ section#login {
     height: 250px;
     width: 280px;
     background-image: url(../imagens/arbol.jpg);
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
     border-radius: 10px 10px 0px 0px;
 }
