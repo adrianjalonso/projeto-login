@@ -19,8 +19,6 @@ oscuro: #365148
 
 body, html{
     background-color: var(--cor01);
-    height: 100vh;
-    width: 100vw;
 }
 
 main {
@@ -33,14 +31,12 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 280px;
 }
 
 #imagen {
     height: 250px;
-    width: 280px;
     background-image: url(../imagens/arbol.jpg);
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
     border-radius: 10px 10px 0px 0px;
 }
@@ -71,8 +67,9 @@ label {
     margin-left: 20px;
     margin-top: 10px;
 }
+
 input {
-    text-align: center;
+    text-align: auto;
 }
 
 main > section > div > form > p {
