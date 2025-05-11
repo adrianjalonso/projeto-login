@@ -38,7 +38,7 @@ section#login {
     overflow: hidden;
 
     background-color: white;
-    height: 500px;
+    height: 515px;
     width: 250px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
@@ -68,65 +68,53 @@ div#formulario > h1 {
 div#formulario > p {
     font-size: 0.8em;
 }
-/*
-label {
-    color: white;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-top: 5px;
-}
-
-input {
-    text-align: auto;
-    height: 40px;
-    width: 160px;
-    border-radius: 10px;
-    box-shadow: none;
-}
-
-main > section > div > form > p {
-    border-radius: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: var(--cor01);
-    height: 70px;
-}
-
-a {
+form > div.campo {
+    background-color: #317961;
     display: block;
-    text-decoration: none;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+div.campo > label {
+    display: none;
+} 
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: var(--cor02);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #537f70;
+}
+
+form > a.botao {
+    display: block;
     text-align: center;
-    padding: 10px;
-    margin: 10px;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: white;
+    color: var(--cor02);
+    border: 1px solid var(--cor02);
+    border-radius: 5px;
+    text-decoration: none;
 }
-
-a#entrar:hover {
-    background-color: #136349;
-}
-
-a#esqueci:hover {
+form > a.botao:hover {
     background-color: #317961;
 }
 
-#entrar {
-    background-color: var(--cor02);
-    color: white;
-    border-radius: 10px;
+form > a.botao >  i { 
+    font-size: 0.8em;
 }
-
-#esqueci {
-    border: 1px solid var(--cor02);
-    border-radius: 10px;
-    color: var(--cor02);
-}
-
-label.material-symbols-outlined {
-    display: inline-block;
-    font-size:25px;
-    margin: 15px;
-}
-
-i.material-symbols-outlined {
-    font-size: 15px;
-}
-*/
